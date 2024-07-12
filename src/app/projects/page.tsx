@@ -16,14 +16,14 @@ const projectsPage = () => {
     {
       title: "Talksay",
       description:
-        "Talksay was a social media platform where you can create rooms and talk or chat with the persons",
+        "Talksay was a social media platform where users could create rooms to engage in conversations through both voice and text chat.",
       tags: ["Nextjs", "Typescript", "Tailwind Css"],
       link: "https://Talksay.live",
     },
     {
       title: "Uengage",
       description:
-        "Uengage was a customer admin panel were user can track there outlets, order etc ",
+        "Uengage is a customer admin panel where users can track their outlets, orders, and more ",
       tags: ["Angular", "Typescript", "Angular Material"],
       link: "https://www.uengage.in/",
     },
@@ -39,11 +39,11 @@ const projectsPage = () => {
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I love to Build Cool Projects. Here, you&#x27;ll find a curated
-            collection of my creative endeavors and technical projects. Each
-            piece represents a journey of innovation, problem-solving, and
+            I am passionate about building cool projects. Here, you’ll find a
+            curated collection of my creative endeavors and technical projects.
+            Each piece represents a journey of innovation, problem-solving, and
             continuous learning. Feel free to explore this showcase of my
-            passion and expertise in action.
+            passion and expertise in action
           </p>
         </FramerWrapper>
       </div>
