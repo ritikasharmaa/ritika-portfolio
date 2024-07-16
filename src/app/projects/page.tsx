@@ -38,7 +38,7 @@ const projectsPage = () => {
       <div className="flex flex-col gap-3">
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
+          <p className=" font-poppins text-lg w-full text-primary max-sm:text-base backdrop-blur-[2px]">
             I am passionate about building cool projects. Here, you’ll find a
             curated collection of my creative endeavors and technical projects.
             Each piece represents a journey of innovation, problem-solving, and

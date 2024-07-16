@@ -1,12 +1,12 @@
 import Heading from "@/components/Heading";
-import SkillsFooter from "@/components/SkillsFotter";
+import SkillsFooter from "@/components/SkillsFooter";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
 import html from "../../../public/html.png";
 import css from "../../../public/css.png";
 import scss from "../../../public/scss.png";
 import js from "../../../public/js.png";
-import ts from "../../../public/ts.png";
+import ts from "../../../public/typescript.png";
 import react from "../../../public/react.png";
 import nextjs from "../../../public/nextjs.jpeg";
 import nestjs from "../../../public/nest.jpg";
@@ -17,6 +17,7 @@ import chakraui from "../../../public/chakraui.jpg";
 import github from "../../../public/github.png";
 import vscode from "../../../public/vscode.png";
 import FramerWrapper from "@/components/FramerWrapper";
+
 const skillPage = () => {
   const language = [
     { alt: "html", img: html },
@@ -47,7 +48,7 @@ const skillPage = () => {
       <div className="flex flex-col gap-3">
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
+          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg backdrop-blur-[2px]">
             With over 5 years of experience, I specialize in JavaScript for
             dynamic web experiences, CSS for responsive UI design, Node.js for
             scalable backend solutions, and Go for concurrent and
