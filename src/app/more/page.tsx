@@ -36,7 +36,12 @@ const morePage = () => {
     {
       title: "HackerRank Certificate",
       description: "I got certification in angular programming",
-      link: "https://www.hackerrank.com/certificates/iframe/7dd69e1b7721",
+      link: "https://www.hackerrank.com/certificates/612fb442222b",
+    },
+    {
+      title: "HackerRank Certificate",
+      description: "I got certification in javascript intermediate programming",
+      link: "https://www.hackerrank.com/certificates/c247c35b4ee9",
     },
   ];
 
