@@ -21,6 +21,13 @@ const projectsPage = () => {
       link: "https://Talksay.live",
     },
     {
+      title: "Fluski",
+      description:
+        "Fluski is a somewhat clone of notion.. where you as a user can create todo list, add tasks and assigment",
+      tags: ["Reactjs", "Lexical", "Tailwind Css"],
+      link: "https://fluski.com/",
+    },
+    {
       title: "Uengage",
       description:
         "Uengage is a customer admin panel where users can track their outlets, orders, and more ",

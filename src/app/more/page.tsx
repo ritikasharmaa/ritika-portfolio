@@ -16,41 +16,27 @@ import FramerWrapper from "@/components/FramerWrapper";
 const morePage = () => {
   const morelink = [
     {
-      title: "Dev.to",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
-    },
-    {
-      title: "Hashnode",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
-    },
-    {
       title: "Medium",
       description:
         "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
+      link: "https://medium.com/@ritikasharma.sharma97",
     },
 
     {
       title: "Daily.Dev",
       description:
         "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
+      link: "https://app.daily.dev/ritika95",
     },
     {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc..",
-      link: "https://mdtaquijhar.gumroad.com/",
+      title: "HackerRank Certificate",
+      description: "I got certification in problem solving in javascript",
+      link: "https://www.hackerrank.com/certificates/612fb442222b",
     },
     {
-      title: "Buy Me a coffee",
-      description:
-        "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
+      title: "HackerRank Certificate",
+      description: "I got certification in angular programming",
+      link: "https://www.hackerrank.com/certificates/iframe/7dd69e1b7721",
     },
   ];
 
@@ -66,31 +52,37 @@ const morePage = () => {
       </div>
       <div className="h-auto w-full flex flex-wrap gap-3 p-2">
         {morelink.map((value, indx) => {
-          
           return (
-            <FramerWrapper key={indx} className="max-w-[32%] max-lg:max-w-full" y={0} scale={0.8} delay={indx/4} duration={0.15}>
-            <Card  className="w-full">
-              <CardHeader>
-                <CardTitle>{value.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-base font-poppins">{value.description}</p>
-              </CardContent>
-              <CardFooter>
-                <Link
-                  href={value.link}
-                  target="blank"
-                  className={cn(
-                    buttonVariants({ variant: "default", size: "lg" }),
-                    "w-full gap-3"
-                  )}
-                >
-                  {" "}
-                  <ExternalLink />
-                  Visit here
-                </Link>
-              </CardFooter>
-            </Card>
+            <FramerWrapper
+              key={indx}
+              className="max-w-[32%] max-lg:max-w-full"
+              y={0}
+              scale={0.8}
+              delay={indx / 4}
+              duration={0.15}
+            >
+              <Card className="w-full">
+                <CardHeader>
+                  <CardTitle>{value.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="min-h-[92px]">
+                  <p className="text-base font-poppins">{value.description}</p>
+                </CardContent>
+                <CardFooter>
+                  <Link
+                    href={value.link}
+                    target="blank"
+                    className={cn(
+                      buttonVariants({ variant: "default", size: "lg" }),
+                      "w-full gap-3"
+                    )}
+                  >
+                    {" "}
+                    <ExternalLink />
+                    Visit here
+                  </Link>
+                </CardFooter>
+              </Card>
             </FramerWrapper>
           );
         })}
