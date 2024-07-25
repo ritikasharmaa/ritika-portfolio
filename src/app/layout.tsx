@@ -17,7 +17,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://ritikasharmaas.vercel.app"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -26,22 +26,17 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
+    "Ri",
+    "Ritika",
+    "tika",
+    "Ri",
+    "RI",
+    "RITIKA",
+    "TIKA",
+    "Rita",
+    "Ritika Sharma",
+    "sharma",
+    "sharm",
     "portfolio",
     "web developer",
     "web",
@@ -49,19 +44,8 @@ export const metadata: Metadata = {
     "developer",
     "PROGRAMMER ",
     "programmer ",
-    "MD TAQUI IMAM ",
     "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
   ],
-  authors: [
-    {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
-    },
-  ],
-  creator: "Taqui imam",
 
   openGraph: {
     type: "website",
@@ -77,7 +61,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    creator: "@ritikasharmaas",
   },
   icons: {
     icon: "/favicon.ico",
