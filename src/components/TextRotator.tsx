@@ -8,7 +8,7 @@ function TextRotator() {
         <span className="inline-flex ml-2 flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden">
           <ul className="block text-left font-rubik text-lg sm:text-3xl leading-tight [&_li]:block animate-text-slide">
             <li className="text-[#2f7df4]">Engineer</li>
-            <li className="text-[#2f7df4]">Freelancer</li>
+            {/* <li className="text-[#2f7df4]">Freelancer</li> commenting for a while  */}
             <li className="text-[#2f7df4]">Gamer</li>
           </ul>
         </span>

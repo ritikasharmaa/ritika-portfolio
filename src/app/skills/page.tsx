@@ -11,7 +11,7 @@ import react from "../../../public/react.png";
 import nextjs from "../../../public/nextjs.jpeg";
 import nestjs from "../../../public/nest.jpg";
 import go from "../../../public/go.png";
-import tailwind from "../../../public/tailwindcss.png";
+import tailwind from "../../../public/tailwind.png";
 import expressjs from "../../../public/expressjs.jpeg";
 import chakraui from "../../../public/chakraui.jpg";
 import github from "../../../public/github.png";
