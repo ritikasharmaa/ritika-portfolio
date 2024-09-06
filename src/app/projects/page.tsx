@@ -34,6 +34,13 @@ const projectsPage = () => {
       tags: ["Angular", "Typescript", "Angular Material"],
       link: "https://www.uengage.in/",
     },
+    {
+      title: "Game Hive",
+      description:
+        "Build a gaming platform where users can play, rate, and review games. Include features like leaderboards, multiplayer support, and game recommendations.",
+      tags: ["Nextjs", "Typescript", "Chakra UI"],
+      link: "https://gamer-hive-blush.vercel.app/",
+    },
   ];
 
   return (
