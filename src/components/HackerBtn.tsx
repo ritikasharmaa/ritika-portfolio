@@ -32,7 +32,7 @@ const HackerBtn = ({ label }: { label: string }) => {
   }, [label]);
 
   const downloadPdf = () => {
-    const pdfUrl = "/ritikaResume.pdf";
+    const pdfUrl = "/Ritika_Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.setAttribute("download", "Ritka Resume.pdf");
