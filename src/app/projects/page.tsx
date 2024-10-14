@@ -10,35 +10,35 @@ const projectsPage = () => {
       title: "Tigerhall - A social learning Platform",
       description:
         "Tigerhall is a social learning platform for B2B, B2C organizations",
-      tags: ["Reactjs", "Graphql", "Typescript", "ChakraUI"],
+      tags: ["React", "Graphql", "TS", "ChakraUI", "Node"],
       link: "https://tigerhall.com",
     },
     {
       title: "Talksay",
       description:
         "Talksay was a social media platform where users could create rooms to engage in conversations through both voice and text chat.",
-      tags: ["Nextjs", "Typescript", "Tailwind Css"],
+      tags: ["Nextjs", "TS", "Tailwind", "Node", "MongoDB"],
       link: "https://Talksay.live",
     },
     {
       title: "Fluski",
       description:
         "Fluski is a somewhat clone of notion.. where you as a user can create todo list, add tasks and assigment",
-      tags: ["Reactjs", "Lexical", "Tailwind Css"],
+      tags: ["Reactjs", "Lexical", "Tailwind", "Prisma", "PSQL"],
       link: "https://fluski.com/",
     },
     {
       title: "Uengage",
       description:
         "Uengage is a customer admin panel where users can track their outlets, orders, and more ",
-      tags: ["Angular", "Typescript", "Angular Material"],
+      tags: ["Angular", "TS", "Angular Material"],
       link: "https://www.uengage.in/",
     },
     {
       title: "Game Hive",
       description:
         "Build a gaming platform where users can play, rate, and review games. Include features like leaderboards, multiplayer support, and game recommendations.",
-      tags: ["Nextjs", "Typescript", "Chakra UI"],
+      tags: ["Nextjs", "TS", "Chakra", "Node"],
       link: "https://gamer-hive-blush.vercel.app/",
     },
   ];
